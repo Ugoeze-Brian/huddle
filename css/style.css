@@ -1,0 +1,240 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(257, 40%, 49%);
+    width: 100%;
+    
+}
+
+
+
+.logo{
+    height: auto;
+    width: 20%;
+    margin: 0 1rem;
+    padding: 1rem 1rem;
+    
+   
+}
+.container{
+    width: 95%;
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    
+}
+
+.main-img{
+    width: 60%;
+    height: min-content;
+}
+
+.text{
+    width: auto;
+    height: min-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+    margin: 1rem 0;
+    padding: 1rem;
+     
+}
+
+.text h2{
+    margin: 1rem;
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+    height: min-content;
+}
+
+.text p{
+    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.register{
+    margin: 1rem;
+    
+    text-decoration: none;
+    color: hsl(257, 40%, 49%);
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    border-radius: 1rem;
+
+}
+
+.register:hover{
+    margin: 1rem;
+    
+    text-decoration: none;
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+    padding: 0.5rem 2.5rem;
+    border-radius: 1rem;
+
+}
+
+.icons{
+    text-align: right;
+    padding: 1rem;
+    border-radius: 1px;
+    color: white;
+    width: 90%;
+    
+}
+
+.socials{
+    text-align: right;
+    padding: 0.3rem;
+    margin: 0 0.2rem;
+    color: white;
+    border-radius: 1rem;
+    border: 1px solid white;
+}
+
+.socials:hover{
+    text-align: right;
+    padding: 0.3rem;
+    color: hsl(300, 69%, 71%);
+    border-radius: 1rem;
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+
+
+@media only screen and (max-width: 375px){
+    *{
+        margin: 0%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-image: url(/images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: hsl(257, 40%, 49%);
+        width: 100%;
+    }
+
+    .logo{
+        height: auto;
+        width: 40%;
+        margin: 0 1rem;
+        padding: 1rem 1rem;
+        
+       
+    }
+
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0 1.5rem;
+        height: auto;
+    }
+
+    .main-img{
+        width: 80%;
+        height: auto;
+    }
+
+    .text{
+        width: 100%;
+        height: min-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.9rem;
+        color: white;
+        text-align: center;
+         
+    }
+
+    .text h2{
+        width: 90%;
+        margin: 0.2rem;
+        font-family: 'Poppins', sans-serif;
+        
+        
+    }
+    .text p{
+        margin: 0.1rem;
+        margin-top: 0.2rem;
+        margin-bottom: 1.5rem;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+    
+    .register{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0.1rem;
+        text-decoration: none;
+        color: hsl(257, 40%, 49%);
+        background-color: white;
+        padding: 0.5rem 2.5rem;
+        border-radius: 1rem;
+    
+    }
+    
+    .register:hover{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        text-decoration: none;
+        color: white;
+        background-color: hsl(300, 69%, 71%);
+        padding: 0.5rem 3.5rem;
+        border-radius: 1rem;
+    
+    }
+    
+    .icons{
+        
+        text-align: center;
+        padding: 0.2rem;
+        margin-bottom: 1rem;
+        border-radius: 0.1rem;
+        border: none;
+        color: white;
+        width: 100%;
+        
+    }
+    
+    .socials{
+        text-align: center;
+        padding: 0.3rem;
+        margin: 0 0.2rem;
+        color: white;
+        border-radius: 1rem;
+        border: none;
+        border: 0.1rem solid white;
+    }
+    
+    .socials:hover{
+        text-align: center;
+        padding: 0.3rem;
+        color: hsl(300, 69%, 71%);
+        border-radius: 1rem;
+        border: none;
+        border: 0.1rem solid hsl(300, 69%, 71%);
+    }
+}
